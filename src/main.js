@@ -144,7 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
     AOS.init({ duration: 1000, once: true });
     
     // Initialize EmailJS (library loaded via <script> tag in index.html)
-    // NOTE: Replace 'oTKNSCw73fuGWTjUP' with your actual EmailJS Public Key.
     emailjs.init('oTKNSCw73fuGWTjUP'); 
     
     // --- Setup all modules, passing required elements/functions ---
